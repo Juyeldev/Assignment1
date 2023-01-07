@@ -3,30 +3,26 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
-
 /* Header section */
 .Container{
-    width: 1400px;
+    width: 1600px;
+    height: 808px;
 }
-
 .header-section{
     background-image: url(../images/banner/banner3.png);
     background-size:cover;
 }
-
 .header-items{
-    margin-right: 200px;
-    margin-left: 700px;
+    margin-right: 150px;
+    margin-left: 750px;
     text-align: right;
     padding: 200px 0 150px;
 }
-
 .header title{
     padding-bottom: 25px;
     color: #ffffff;
     font-size: 50px;
 }
-
 .header-details{
     padding-bottom: 30px;
     color: #ffffff;
@@ -54,7 +50,6 @@
     margin: 150px 250px 0 50px;
     gap: 60px;
 }
-
 .banner-tittle{
     color:#151414;
     padding-bottom: 25px;
@@ -66,12 +61,10 @@
     font-size: 16px;
     line-height: 26px;
 }
-
 .banner-section .points{
     padding-bottom: 10px;
     font-size: 16px;
 }
-
 .banner-section .points i{
     color: green;
     font-size: 20px;
@@ -82,40 +75,35 @@
 /* My Plan Section */
 
 .My-Plan{
-    margin: 120px 200px 0 50px;
+    margin: 80px 150px 0 150px;
+    
     text-align: center;
     padding: ;
 }
-
 .all-plan{
     display: flex;
     justify-content: space-between;
 }
-
 .my-plan h2{
     margin-bottom: 50px;
     font-size: 30px;
     color: #151414;
     padding: 20px 0;
 }
-
 .plan{
-
     padding: 35px;
     text-align: left;
     
 }
-
 .plan-tittle{
     color: #151414;
     font-size: 20px;
 }
-
 .plan-description{
     color: #737272;
     padding: 20px;
     font-size: 20px;
-    
+
 }
 
 /* Call Now Section Here */
@@ -124,7 +112,7 @@
    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
     margin: 120px 200px 0 50px;
     background-repeat: no-repeat;
-    margin: 120px 200px 0 50px;
+    margin: 80px 150px 0 150px;
     padding: 60px;
     border-radius: 10px;
 }
@@ -139,7 +127,7 @@
 /* Footer Section Here */
 
 .footer-section{
-   
+
     background-color: #151414;  
     height: ;
 }
@@ -147,7 +135,7 @@
 .footer{
     display: flex;
     padding-block-end: 120px ;
-    margin: 120px 200px 0 50px ;
+    margin: 80px 150px 0 150px;
     padding-top: 70px;
 }
 .footer h2{
@@ -193,13 +181,13 @@
     color: #ffffff;
     font-weight: 600;
     border: none;
-    
+
 }
 
 button{
     transition: background-color 1s;
 }
-  
+
 button:hover{
     background-color: red;
 }
